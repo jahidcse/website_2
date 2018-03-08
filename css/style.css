@@ -1,0 +1,157 @@
+/*css here..*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper_border{
+    width: 90%;
+    border: 1px solid #C8C8C8;
+    margin: 0 auto;
+}
+/*header part*/
+.header {
+    min-height: 100px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper_left{
+    padding-right: 244px;
+    
+}
+.logo {
+    width:20%;
+    float:left;
+    margin-top: 33px;
+}
+.nav {
+    width:60%;
+    float:right;
+    margin-top: 61px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0 11px;
+    color: #43546E;;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.nav ul li a:hover{
+    color: green;
+   
+}
+
+/*benner part*/
+.benner {
+    background-image: url(../img/benner.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.benner_text {
+    width: 30%;
+    margin-top: 100px;
+    background-color: rgba(192,192,192,0.3);
+    padding: 28px 21px;
+}
+.benner_text h3{
+    color: #fff;
+    font-size: 24px;
+}
+.benner_text h1{
+    color: #fff;
+    font-weight: normal;
+}
+.benner_text p{
+    color: #fff;
+    font-size: 18px;
+}
+.benner_text button{
+    background-color: #40414E;
+    padding:10px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #fff;
+}
+.benner_text button:hover{
+    color: #18628D;
+    cursor: pointer;
+}
+/*contain part*/
+.contain {
+    min-height: 300px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 57px;
+}
+.contain_section {  
+}
+
+.service1 {
+     float: left;
+     width: 30%;
+     padding-left: 32px;  
+}
+.service1 h2{
+    text-align: center;
+    color: #D1C7BF;
+}
+.service1 img{
+    width: 282px;
+    height: auto;
+}
+.service1 p{
+    margin-top: 31px;
+    color: #595B64;
+}
+.service1 button{
+    padding:9px 30px;
+    margin-top: 28px;
+    background-color: #425D7E;
+    border: none;
+    border-radius: 3px;
+    margin-left: 84px;
+    color: #fff;
+    
+}
+.service1 button:hover{
+    background-color: aqua;
+    color: #000;
+    cursor: pointer;
+}
+.copyright_scetion{
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.copyright_scetion h3{
+    font-size: 20px;
+    color: #9099A9;
+}
+.copyright_scetion p{
+    color: #9099A9;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.footer{
+    overflow: hidden;
+}
+.social_icon{
+    text-align: center;
+    font-size: 40px;
+    background-color:darkgray;
+    padding-top: 5px;
+}
